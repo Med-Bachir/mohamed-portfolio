@@ -109,6 +109,16 @@ const translations = {
         description:
           'A machine-learning pipeline that analyzes and classifies sentiment in Amazon customer reviews, processing large-scale data with Big Data tooling and containerized for portable deployment.',
       },
+      qa: {
+        tagline: 'Multilingual Q&A assistant for course materials.',
+        description:
+          'A deep-learning question-answering assistant for university course materials, built with PyTorch. Students can ask questions about their courses and get answers across multiple languages.',
+      },
+      iot: {
+        tagline: 'Smart-home intrusion detection on AWS.',
+        description:
+          'An IoT smart-home security system that detects intrusions with ESP32 and PIR sensors over an event-driven AWS pipeline — real-time alerts, event storage and dashboard visualization.',
+      },
     },
     studies: {
       builtHeading: 'What I built',
@@ -176,11 +186,36 @@ const translations = {
           { value: 'Docker', label: 'containerized' },
         ],
       },
+      qa: {
+        built: [
+          'Implemented a multilingual question-answering assistant over university course materials.',
+          'Built the NLP / deep-learning models in PyTorch.',
+          'Designed it to understand questions and return answers across multiple languages.',
+        ],
+        highlights: [
+          { value: 'PyTorch', label: 'deep learning' },
+          { value: 'Multilingual', label: 'Q&A' },
+          { value: 'NLP', label: 'course materials' },
+        ],
+      },
+      iot: {
+        built: [
+          'Designed and implemented a smart-home intrusion-detection system using ESP32, PIR sensors, MQTT and AWS Cloud services.',
+          'Built a complete event-driven pipeline with AWS IoT Core, Lambda, SNS, DynamoDB, CloudWatch and Grafana.',
+          'Developed real-time intrusion monitoring, automated alerting, event storage and dashboard visualization.',
+          'Simulated IoT devices and network infrastructure using Wokwi and Cisco Packet Tracer.',
+        ],
+        highlights: [
+          { value: 'Real-time', label: 'intrusion alerts' },
+          { value: 'Event-driven', label: 'AWS pipeline' },
+          { value: 'Grafana', label: 'dashboards' },
+        ],
+      },
     },
     skills: {
       label: 'Skills',
       heading: 'Tech stack & tooling',
-      groups: { frontend: 'Frontend', backend: 'Backend', dataml: 'Data & ML', databases: 'Databases', devops: 'DevOps & Tools' },
+      groups: { frontend: 'Frontend', backend: 'Backend', dataml: 'Data & ML', databases: 'Databases', cloudiot: 'Cloud & IoT', devops: 'DevOps & Tools' },
     },
     neural: {
       label: 'About Me',
@@ -339,6 +374,16 @@ const translations = {
         description:
           'Un pipeline de machine learning qui analyse et classe les sentiments des avis clients Amazon, traitant des données à grande échelle avec des outils Big Data et conteneurisé pour un déploiement portable.',
       },
+      qa: {
+        tagline: 'Assistant Q&R multilingue pour supports de cours.',
+        description:
+          'Un assistant de questions-réponses par deep learning pour les supports de cours universitaires, développé avec PyTorch. Les étudiants posent des questions sur leurs cours et obtiennent des réponses dans plusieurs langues.',
+      },
+      iot: {
+        tagline: 'Détection d’intrusion domotique sur AWS.',
+        description:
+          'Un système de sécurité domotique IoT qui détecte les intrusions avec ESP32 et capteurs PIR sur un pipeline AWS événementiel — alertes en temps réel, stockage des événements et visualisation sur tableau de bord.',
+      },
     },
     studies: {
       builtHeading: 'Ce que j’ai construit',
@@ -406,11 +451,36 @@ const translations = {
           { value: 'Docker', label: 'conteneurisé' },
         ],
       },
+      qa: {
+        built: [
+          'Implémenté un assistant de questions-réponses multilingue sur des supports de cours universitaires.',
+          'Construit les modèles NLP / deep learning avec PyTorch.',
+          'Conçu pour comprendre les questions et fournir des réponses dans plusieurs langues.',
+        ],
+        highlights: [
+          { value: 'PyTorch', label: 'deep learning' },
+          { value: 'Multilingue', label: 'Q&R' },
+          { value: 'NLP', label: 'supports de cours' },
+        ],
+      },
+      iot: {
+        built: [
+          'Conçu et implémenté un système de détection d’intrusion domotique avec ESP32, capteurs PIR, MQTT et services AWS Cloud.',
+          'Construit un pipeline événementiel complet avec AWS IoT Core, Lambda, SNS, DynamoDB, CloudWatch et Grafana.',
+          'Développé la surveillance d’intrusion en temps réel, les alertes automatiques, le stockage des événements et la visualisation sur tableau de bord.',
+          'Simulé les appareils IoT et l’infrastructure réseau avec Wokwi et Cisco Packet Tracer.',
+        ],
+        highlights: [
+          { value: 'Temps réel', label: 'alertes d’intrusion' },
+          { value: 'Événementiel', label: 'pipeline AWS' },
+          { value: 'Grafana', label: 'tableaux de bord' },
+        ],
+      },
     },
     skills: {
       label: 'Compétences',
       heading: 'Stack technique & outils',
-      groups: { frontend: 'Frontend', backend: 'Backend', dataml: 'Data & ML', databases: 'Bases de données', devops: 'DevOps & Outils' },
+      groups: { frontend: 'Frontend', backend: 'Backend', dataml: 'Data & ML', databases: 'Bases de données', cloudiot: 'Cloud & IoT', devops: 'DevOps & Outils' },
     },
     neural: {
       label: 'À propos de moi',
@@ -569,6 +639,16 @@ const translations = {
         description:
           'خط معالجة بالتعلُّم الآلي يحلّل ويصنّف المشاعر في مراجعات عملاء أمازون، ويعالج بيانات واسعة النطاق بأدوات البيانات الضخمة، ومُحزَّم في حاويات لنشر محمول.',
       },
+      qa: {
+        tagline: 'مساعد أسئلة وأجوبة متعدّد اللغات لمواد المقرّرات.',
+        description:
+          'مساعد أسئلة وأجوبة بالتعلُّم العميق لمواد المقرّرات الجامعية، مبنيّ بـPyTorch. يطرح الطلاب أسئلة حول مقرّراتهم ويحصلون على إجابات بعدّة لغات.',
+      },
+      iot: {
+        tagline: 'كشف اقتحام المنزل الذكي عبر AWS.',
+        description:
+          'نظام أمان منزلي ذكي يعتمد على إنترنت الأشياء يكتشف الاقتحامات باستخدام ESP32 وحسّاسات PIR عبر خط معالجة حدثي على AWS — تنبيهات فورية وتخزين للأحداث وعرض على لوحة معلومات.',
+      },
     },
     studies: {
       builtHeading: 'ما الذي بنيته',
@@ -636,11 +716,36 @@ const translations = {
           { value: 'Docker', label: 'مُحزَّم في حاويات' },
         ],
       },
+      qa: {
+        built: [
+          'نفّذت مساعد أسئلة وأجوبة متعدّد اللغات على مواد المقرّرات الجامعية.',
+          'بنيت نماذج معالجة اللغة الطبيعية / التعلُّم العميق بـPyTorch.',
+          'صمّمته لفهم الأسئلة وإرجاع الإجابات بعدّة لغات.',
+        ],
+        highlights: [
+          { value: 'PyTorch', label: 'تعلُّم عميق' },
+          { value: 'متعدّد اللغات', label: 'أسئلة وأجوبة' },
+          { value: 'NLP', label: 'مواد المقرّرات' },
+        ],
+      },
+      iot: {
+        built: [
+          'صمّمت ونفّذت نظام كشف اقتحام منزلي ذكي باستخدام ESP32 وحسّاسات PIR وMQTT وخدمات AWS السحابية.',
+          'بنيت خط معالجة حدثيًا متكاملًا باستخدام AWS IoT Core وLambda وSNS وDynamoDB وCloudWatch وGrafana.',
+          'طوّرت مراقبة الاقتحام الفورية والتنبيه التلقائي وتخزين الأحداث والعرض على لوحة المعلومات.',
+          'حاكيت أجهزة إنترنت الأشياء والبنية الشبكية باستخدام Wokwi وCisco Packet Tracer.',
+        ],
+        highlights: [
+          { value: 'فوري', label: 'تنبيهات الاقتحام' },
+          { value: 'حدثي', label: 'خط AWS' },
+          { value: 'Grafana', label: 'لوحات معلومات' },
+        ],
+      },
     },
     skills: {
       label: 'المهارات',
       heading: 'الحزمة التقنية والأدوات',
-      groups: { frontend: 'الواجهة الأمامية', backend: 'الواجهة الخلفية', dataml: 'البيانات والتعلُّم الآلي', databases: 'قواعد البيانات', devops: 'DevOps والأدوات' },
+      groups: { frontend: 'الواجهة الأمامية', backend: 'الواجهة الخلفية', dataml: 'البيانات والتعلُّم الآلي', databases: 'قواعد البيانات', cloudiot: 'الحوسبة السحابية وإنترنت الأشياء', devops: 'DevOps والأدوات' },
     },
     neural: {
       label: 'نبذة عني',

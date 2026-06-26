@@ -5,6 +5,8 @@ import tajmallShot from './assets/projects/tajmall.jpg'
 import areYouAddictedShot from './assets/projects/areyouaddicted.jpg'
 import amazonShot from './assets/projects/amazon.jpg'
 import merdaciShot from './assets/projects/merdaci.jpg'
+import qaShot from './assets/projects/qa.jpg'
+import iotShot from './assets/projects/iot.jpg'
 
 export const links = {
   github: 'https://github.com/Med-Bachir',
@@ -94,6 +96,20 @@ export const projects = [
     tags: ['Python', 'PySpark', 'Hadoop', 'scikit-learn', 'Pandas', 'Docker'],
     cta: [{ key: 'github', href: links.github }],
   },
+  {
+    key: 'qa',
+    name: 'Multilingual Q&A Assistant',
+    image: qaShot,
+    tags: ['PyTorch', 'Deep Learning', 'NLP', 'Q&A', 'Multilingual'],
+    cta: [{ key: 'github', href: links.github }],
+  },
+  {
+    key: 'iot',
+    name: 'IoT Smart Home Security',
+    image: iotShot,
+    tags: ['ESP32', 'MQTT', 'AWS IoT Core', 'Lambda', 'DynamoDB', 'SNS', 'CloudWatch', 'EC2', 'Grafana', 'Cisco Packet Tracer', 'Wokwi'],
+    cta: [{ key: 'github', href: links.github }],
+  },
 ]
 
 export const skillGroups = [
@@ -101,6 +117,7 @@ export const skillGroups = [
   { key: 'backend', icon: '</>', items: ['Node.js', 'Express', 'Spring Boot', 'Laravel', 'Django', 'PHP'] },
   { key: 'dataml', icon: '∑', items: ['Python', 'Pandas', 'scikit-learn', 'PySpark', 'Hadoop', 'Spark'] },
   { key: 'databases', icon: '⛁', items: ['PostgreSQL / PostGIS', 'MySQL', 'MongoDB'] },
+  { key: 'cloudiot', icon: '☁', items: ['AWS IoT Core', 'AWS Lambda', 'DynamoDB', 'SNS', 'CloudWatch', 'EC2', 'MQTT', 'ESP32', 'Grafana'] },
   { key: 'devops', icon: '⚙', items: ['Docker', 'Git / GitHub', 'Linux', 'UML'], wide: true },
 ]
 
