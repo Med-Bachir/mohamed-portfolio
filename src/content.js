@@ -100,8 +100,8 @@ export const projects = [
     key: 'qa',
     name: 'Multilingual Q&A Assistant',
     image: qaShot,
-    tags: ['PyTorch', 'Deep Learning', 'NLP', 'Q&A', 'Multilingual'],
-    cta: [{ key: 'github', href: links.github }],
+    tags: ['PyTorch', 'FastAPI', 'BERT', 'NLP', 'Q&A', 'Multilingual'],
+    cta: [{ key: 'github', href: 'https://github.com/Med-Bachir/multilingual-qa-assistant' }],
   },
   {
     key: 'iot',
@@ -109,6 +109,12 @@ export const projects = [
     image: iotShot,
     tags: ['ESP32', 'MQTT', 'AWS IoT Core', 'Lambda', 'DynamoDB', 'SNS', 'CloudWatch', 'EC2', 'Grafana', 'Cisco Packet Tracer', 'Wokwi'],
     cta: [{ key: 'github', href: links.github }],
+  },
+  {
+    key: 'idl',
+    name: 'IDL Student Manager',
+    tags: ['React', 'Vite', 'Material UI', 'React Router', 'Axios'],
+    cta: [{ key: 'github', href: 'https://github.com/Med-Bachir/idl-student-manager' }],
   },
 ]
 

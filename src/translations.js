@@ -119,6 +119,11 @@ const translations = {
         description:
           'An IoT smart-home security system that detects intrusions with ESP32 and PIR sensors over an event-driven AWS pipeline — real-time alerts, event storage and dashboard visualization.',
       },
+      idl: {
+        tagline: 'Student & speciality management dashboard.',
+        description:
+          'A React + Material UI admin client for a university, with CRUD screens for students and specialities plus a student-choices view, talking to a REST backend over Axios.',
+      },
     },
     studies: {
       builtHeading: 'What I built',
@@ -209,6 +214,18 @@ const translations = {
           { value: 'Real-time', label: 'intrusion alerts' },
           { value: 'Event-driven', label: 'AWS pipeline' },
           { value: 'Grafana', label: 'dashboards' },
+        ],
+      },
+      idl: {
+        built: [
+          'Built a React + Vite admin client with Material UI and React Router for managing students, specialities and choices.',
+          'Implemented CRUD screens for students and specialities with list and add views.',
+          'Wired the client to a REST backend over Axios, with loading states and alert feedback.',
+        ],
+        highlights: [
+          { value: 'CRUD', label: 'students & specialities' },
+          { value: 'MUI', label: 'Material UI client' },
+          { value: 'SPA', label: 'React Router' },
         ],
       },
     },
@@ -384,6 +401,11 @@ const translations = {
         description:
           'Un système de sécurité domotique IoT qui détecte les intrusions avec ESP32 et capteurs PIR sur un pipeline AWS événementiel — alertes en temps réel, stockage des événements et visualisation sur tableau de bord.',
       },
+      idl: {
+        tagline: 'Tableau de bord de gestion des étudiants & spécialités.',
+        description:
+          'Un client d’administration React + Material UI pour une université, avec des écrans CRUD pour les étudiants et les spécialités ainsi qu’une vue des choix des étudiants, relié à un backend REST via Axios.',
+      },
     },
     studies: {
       builtHeading: 'Ce que j’ai construit',
@@ -474,6 +496,18 @@ const translations = {
           { value: 'Temps réel', label: 'alertes d’intrusion' },
           { value: 'Événementiel', label: 'pipeline AWS' },
           { value: 'Grafana', label: 'tableaux de bord' },
+        ],
+      },
+      idl: {
+        built: [
+          'Construit un client d’administration React + Vite avec Material UI et React Router pour gérer les étudiants, les spécialités et les choix.',
+          'Implémenté des écrans CRUD pour les étudiants et les spécialités, avec vues liste et ajout.',
+          'Relié le client à un backend REST via Axios, avec états de chargement et alertes.',
+        ],
+        highlights: [
+          { value: 'CRUD', label: 'étudiants & spécialités' },
+          { value: 'MUI', label: 'client Material UI' },
+          { value: 'SPA', label: 'React Router' },
         ],
       },
     },
@@ -649,6 +683,11 @@ const translations = {
         description:
           'نظام أمان منزلي ذكي يعتمد على إنترنت الأشياء يكتشف الاقتحامات باستخدام ESP32 وحسّاسات PIR عبر خط معالجة حدثي على AWS — تنبيهات فورية وتخزين للأحداث وعرض على لوحة معلومات.',
       },
+      idl: {
+        tagline: 'لوحة لإدارة الطلاب والتخصّصات.',
+        description:
+          'عميل إدارة بReact + Material UI لجامعة، يضمّ شاشات CRUD للطلاب والتخصّصات وعرضًا لاختيارات الطلاب، متّصلًا بخادم REST عبر Axios.',
+      },
     },
     studies: {
       builtHeading: 'ما الذي بنيته',
@@ -739,6 +778,18 @@ const translations = {
           { value: 'فوري', label: 'تنبيهات الاقتحام' },
           { value: 'حدثي', label: 'خط AWS' },
           { value: 'Grafana', label: 'لوحات معلومات' },
+        ],
+      },
+      idl: {
+        built: [
+          'بنيت عميل إدارة بReact + Vite مع Material UI وReact Router لإدارة الطلاب والتخصّصات والاختيارات.',
+          'نفّذت شاشات CRUD للطلاب والتخصّصات مع واجهات للعرض والإضافة.',
+          'ربطت العميل بخادم REST عبر Axios، مع حالات تحميل وتنبيهات.',
+        ],
+        highlights: [
+          { value: 'CRUD', label: 'الطلاب والتخصّصات' },
+          { value: 'MUI', label: 'عميل Material UI' },
+          { value: 'SPA', label: 'React Router' },
         ],
       },
     },
