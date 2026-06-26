@@ -7,6 +7,7 @@ import amazonShot from './assets/projects/amazon.jpg'
 import merdaciShot from './assets/projects/merdaci.jpg'
 import qaShot from './assets/projects/qa.jpg'
 import iotShot from './assets/projects/iot.jpg'
+import idlShot from './assets/projects/idl.jpg'
 
 export const links = {
   github: 'https://github.com/Med-Bachir',
@@ -113,6 +114,7 @@ export const projects = [
   {
     key: 'idl',
     name: 'IDL Student Manager',
+    image: idlShot,
     tags: ['React', 'Vite', 'Material UI', 'React Router', 'Axios'],
     cta: [{ key: 'github', href: 'https://github.com/Med-Bachir/idl-student-manager' }],
   },
